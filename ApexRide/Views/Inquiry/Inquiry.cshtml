@@ -1,0 +1,32 @@
+﻿@model Car
+
+<h2>@Model.Name</h2>
+
+<div class="row">
+
+    <div class="col-md-6">
+        <img src="@Model.ImageUrl"
+             class="img-fluid" />
+    </div>
+
+    <div class="col-md-6">
+
+        <h4>Brand: @Model.Brand</h4>
+        <h4>Year: @Model.Year</h4>
+
+        <h3 class="text-success">
+            ₦@Model.Price
+        </h3>
+
+        <p>@Model.Description</p>
+
+        <a asp-controller="Inquiry"
+           asp-action="Create"
+           asp-route-CarId="@Model.Id"
+           class="btn btn-warning">
+            Make Inquiry
+        </a>
+
+    </div>
+
+</div>

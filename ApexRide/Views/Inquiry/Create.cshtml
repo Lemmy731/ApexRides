@@ -1,0 +1,30 @@
+﻿@model Inquiry
+
+<h2>Car Inquiry</h2>
+
+<form asp-action="Create" method="post">
+
+    <input type="hidden" asp-for="CarId" />
+
+    <div class="mb-3">
+        <label>Your Name</label>
+        <input asp-for="CustomerName"
+               class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Email</label>
+        <input asp-for="Email"
+               class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Message</label>
+        <textarea asp-for="Message" class="form-control"></textarea>
+    </div>
+
+    <button class="btn btn-primary">
+        Submit Inquiry
+    </button>
+
+</form>

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Car>
+
+<h2>Available Cars</h2>
+
+<div class="row">
+    @foreach (var car in Model)
+    {
+        <input type="hidden" asp-for="@car.Id" />
+        <div class="col-md-4 mb-4">
+            <div class="card shadow">
+
+                <img src="@car.ImageUrl"
+                     class="card-img-top"
+                     height="200" />
+
+                @* <img src="/images/Camry SX Petrol V6.jpg"
+                     class="card-img-top"
+                     height="200" /> *@
+
+                <div class="card-body">
+                    <h5>@car.Name</h5>
+
+                    <p>
+                        <strong>Brand:</strong> @car.Brand <br />
+                        <strong>Year:</strong> @car.Year
+                    </p>
+
+                    <h4 class="text-success">
+                        ₦@car.Price
+                    </h4>
+
+                    <a asp-controller="Car"
+                       asp-action="Details"
+                       asp-route-id="@car.Id"
+                       class="btn btn-primary">
+                        View Details
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    }
+</div>
