@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApexRide")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09e79a0845750fd38bd9ef6d11109d794b26d426")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApexRide")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApexRide")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 ﻿using ApexRide.BusinessLogic.Interface;
-using ApexRide.DTO;
 using ApexRide.Models;
+using ApexRide.Models.DTO;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApexRide.Controllers
@@ -37,12 +37,8 @@ namespace ApexRide.Controllers
             }
             else
             {
-                //TempData["Error"] = "Login as an admin please";
-                //return RedirectToAction("Dashboard");
-
                 TempData["Error"] = "Log in as an admin please";
                 TempData["RedirectUrl"] = Url.Action("Login", "Login");
-                //return View();
             }
             return View();
         }

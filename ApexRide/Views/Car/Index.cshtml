@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Car>
+﻿ @model List<Car> 
 
 <h2>Available Cars</h2>
 
@@ -12,10 +12,6 @@
                 <img src="@car.ImageUrl"
                      class="card-img-top"
                      height="200" />
-
-                @* <img src="/images/Camry SX Petrol V6.jpg"
-                     class="card-img-top"
-                     height="200" /> *@
 
                 <div class="card-body">
                     <h5>@car.Name</h5>

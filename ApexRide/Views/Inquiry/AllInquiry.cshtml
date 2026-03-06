@@ -1,0 +1,23 @@
+﻿@model List<InquiryDto>
+
+
+<h2>Available Inquiries</h2>
+
+<div class="row">
+
+    <table class="table">
+        <thead>
+        <td>CustomerName</td>
+        <td>Email</td>
+        <td>Message</td>
+        </thead>
+    @foreach (var inquiry in Model)
+    {
+            <tr>
+                <td>@inquiry.CustomerName</td>
+                <td>@inquiry.Email</td>
+                <td>@inquiry.Message</td>
+            </tr>
+        }
+    </table>
+</div>

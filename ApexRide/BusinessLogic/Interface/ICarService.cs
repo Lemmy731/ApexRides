@@ -1,5 +1,5 @@
-﻿using ApexRide.DTO;
-using ApexRide.Models;
+﻿using ApexRide.Models;
+using ApexRide.Models.DTO;
 
 namespace ApexRide.BusinessLogic.Interface
 {

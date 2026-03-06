@@ -4,6 +4,7 @@ namespace ApexRide.Repository.Interface
 {
     public interface IInquiryRepository
     {
-        Task<bool> Create(Inquiry inquiry);
+        Task<bool> CreateInquiry(Inquiry inquiry);
+        Task<List<InquiryDto>> GetInquiry();
     }
 }

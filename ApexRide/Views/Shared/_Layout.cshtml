@@ -19,30 +19,12 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                       @*  <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Car" asp-action="Create">Create</a>
-                        </li> *@
-                       @*  <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Inquiry" asp-action="Create">Inquiry</a>
-                        </li> *@
-                        @* <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Login">Login</a>
-                        </li> *@
-                        @* <li>
-                            <a class="navbar-brand" asp-controller="Home" asp-action="Index"> Car Dealer</a>
-                        </li> *@
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-   @*  <div>
-        <a class="navbar-brand" asp-controller="Home" asp-action="Index"> Car Dealer</a>
-        <a class="nav-link text-dark" asp-area="" asp-controller="Car" asp-action="Create">Create</a>
-    </div> *@
-  
-        
-    
+ 
     <div class="container">
         <main role="main" class="pb-3">
             @if (TempData["Error"] != null)
@@ -60,6 +42,23 @@
                                     '@TempData["RedirectUrl"]';
                             });
                             };
+                </script>
+            }
+            @if (TempData["inquiry"] != null)
+            {
+                <script>
+                    window.onload = function () {
+
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Inquiry',
+                            text: '@TempData["inquiry"]',
+                            confirmButtonText: 'OK'
+                        }).then(() => {
+                            window.location.href =
+                                '@TempData["RedirectUrl"]';
+                        });
+                    };
                 </script>
             }
             @RenderBody()

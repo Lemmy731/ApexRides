@@ -1,7 +1,7 @@
 ﻿using ApexRide.BusinessLogic.Interface;
 using ApexRide.Data;
-using ApexRide.DTO;
 using ApexRide.Models;
+using ApexRide.Models.DTO;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApexRide.Controllers

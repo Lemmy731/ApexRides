@@ -1,4 +1,4 @@
-﻿namespace ApexRide.DTO
+﻿namespace ApexRide.Models.DTO
 {
     public class AdminDto
     {

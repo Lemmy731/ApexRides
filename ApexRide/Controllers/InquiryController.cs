@@ -34,8 +34,21 @@ namespace ApexRide.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Inquiry inquiry)
         {
-            await _inquiryService.Create(inquiry);
-            return RedirectToAction("Index", "Home");
+            await _inquiryService.CreateInquiry(inquiry);
+            TempData["inquiry"] = "Inquiry Submitted";
+            TempData["RedirectUrl"] = Url.Action("Index", "Home");
+            return View();
+            //return RedirectToAction("Index", "Home");
+        }
+        [HttpGet("all-inquiry")]
+        public async Task<IActionResult> AllInquiry()
+        {
+            var response = await _inquiryService.GetInquiry();
+            if (response == null) 
+            {
+                return View();   
+            }
+            return View(response);
         }
     }
 }

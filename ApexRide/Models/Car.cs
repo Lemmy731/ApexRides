@@ -6,7 +6,7 @@ namespace ApexRide.Models
     public class Car
     {
         [Key]
-        public string Id { get; set; } = Guid.NewGuid().ToString();     
+        public string Id { get; set; } = Guid.NewGuid().ToString();    
 
         public string Name { get; set; }
 

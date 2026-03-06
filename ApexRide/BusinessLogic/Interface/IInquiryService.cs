@@ -4,6 +4,7 @@ namespace ApexRide.BusinessLogic.Interface
 {
     public interface IInquiryService
     {
-        Task<bool> Create(Inquiry inquiry);
+        Task<bool> CreateInquiry(Inquiry inquiry);
+        Task<List<InquiryDto>> GetInquiry();
     }
 }

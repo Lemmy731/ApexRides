@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\hp\\source\\repos\\ApexRide\\ApexRide\\wwwroot\\images\\6dda0cff-1920-479e-b95a-54975edcf2f4_racecar.jpg",
+      "PackagePath": "staticwebassets\\images\\6dda0cff-1920-479e-b95a-54975edcf2f4_racecar.jpg"
+    },
+    {
       "Id": "C:\\Users\\hp\\source\\repos\\ApexRide\\ApexRide\\wwwroot\\images\\Camry SX Petrol V6.jpg",
       "PackagePath": "staticwebassets\\images\\Camry SX Petrol V6.jpg"
     },
@@ -25,12 +29,20 @@
       "PackagePath": "staticwebassets\\images\\Toyota Yaris Bad Credit Car Lease.jpg"
     },
     {
+      "Id": "C:\\Users\\hp\\source\\repos\\ApexRide\\ApexRide\\wwwroot\\images\\a888055a-4b95-4dd9-94af-e1cf299b7d91_Sleek Yellow Chevrolet Camaro Sports Car.jpg",
+      "PackagePath": "staticwebassets\\images\\a888055a-4b95-4dd9-94af-e1cf299b7d91_Sleek Yellow Chevrolet Camaro Sports Car.jpg"
+    },
+    {
       "Id": "C:\\Users\\hp\\source\\repos\\ApexRide\\ApexRide\\wwwroot\\images\\download (3).jpg",
       "PackagePath": "staticwebassets\\images\\download (3).jpg"
     },
     {
       "Id": "C:\\Users\\hp\\source\\repos\\ApexRide\\ApexRide\\wwwroot\\images\\download (4).jpg",
       "PackagePath": "staticwebassets\\images\\download (4).jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\ApexRide\\ApexRide\\wwwroot\\images\\e939b49f-22f3-49e7-8e33-38fb3c183d61_smirksorcerer__ car_high_quality_photo_white_background.jpg",
+      "PackagePath": "staticwebassets\\images\\e939b49f-22f3-49e7-8e33-38fb3c183d61_smirksorcerer__ car_high_quality_photo_white_background.jpg"
     },
     {
       "Id": "C:\\Users\\hp\\source\\repos\\ApexRide\\ApexRide\\wwwroot\\images\\mycar.jpg",

@@ -1,6 +1,7 @@
 using ApexRide.BusinessLogic.Implementation;
 using ApexRide.BusinessLogic.Interface;
 using ApexRide.Data;
+using ApexRide.Mapper;
 using ApexRide.Repository.Implementation;
 using ApexRide.Repository.Interface;
 using Microsoft.EntityFrameworkCore;
@@ -17,6 +18,7 @@ builder.Services.AddScoped<IInquiryRepository, InquiryRepository>();
 builder.Services.AddScoped<IInquiryService, InquiryService>();     
 builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 builder.Services.AddScoped<IloginService, LoginService>();
+builder.Services.AddAutoMapper(typeof(MapInitializer));
 
 var app = builder.Build();
 await app.SeedData(); 

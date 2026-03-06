@@ -134,3 +134,6 @@ C:\Users\hp\source\repos\ApexRide\ApexRide\obj\Debug\net8.0\refint\ApexRide.dll
 C:\Users\hp\source\repos\ApexRide\ApexRide\obj\Debug\net8.0\ApexRide.pdb
 C:\Users\hp\source\repos\ApexRide\ApexRide\obj\Debug\net8.0\ApexRide.genruntimeconfig.cache
 C:\Users\hp\source\repos\ApexRide\ApexRide\obj\Debug\net8.0\ref\ApexRide.dll
+C:\Users\hp\source\repos\ApexRide\ApexRide\obj\Debug\net8.0\ApexRide.sourcelink.json
+C:\Users\hp\source\repos\ApexRide\ApexRide\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\hp\source\repos\ApexRide\ApexRide\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
